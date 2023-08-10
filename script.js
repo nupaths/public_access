@@ -163,4 +163,15 @@ navigator.mediaDevices.getUserMedia({audio:true})
                   stop.disabled=true;
                  // record.style.backgroundColor = "red"
                   rec.stop();
-                }
+}
+                // function showUploads() {
+                //   console.log("I'm in here!!!")
+                //   console.log("imageStack = " + imageStack)
+                //   console.log("imageStack.length =" + imageStack.length)
+                //   let html =  document.getElementById("myModal").innerHTML
+                //   for (i=0;i<imageStack.length;i++){
+                //     document.getElementById("myModal").innerHTML = document.getElementById("myModal").innerHTML + imageStack[i]+"<br>";
+                //   }
+             
+
+                // }

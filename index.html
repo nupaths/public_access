@@ -3,21 +3,25 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Public Service Scanner</title>
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-
+	<div id="bodyWrapper">
+		
 		<div id = "showBar" class="" >
 			<button id="myT" class="center" onmousedown="showBar()">SHOW</button>
 		</div>
+
 
 		<div id = "controlBar" class="" >
 				<input type="file"   class="center" id="fileToLoad"><br>
 				<div id="inputTextToSave" resize:both ></div>     
 				<div id="fileToLoad"></div>    
-      		
+      	
+		<div id="show-image">
+		</div>
 			<!--
 			    <button id=record  class="center" ></button>
 				
@@ -34,7 +38,10 @@
 				  <button id="myT" class="center" onmousedown="hideBar()">HIDE</button>
 				  <button id="myU" class="center" onmousedown="">STOP</button>
 				  <audio id=recordedAudio class="center" ></audio>
+					<!-- <button id="myBtn" class="center" onmousedown="showUploads()">SHOW
+						UPLOADS</button> -->
 			</div>
+		
 				 <!-- <canvas id="canvas"></canvas> -->	
 			
 
@@ -42,7 +49,7 @@
 					
 
 					<div id= "imageBar">
-						<img id="myImage"   class="center_full"  src="data/life.jpg"style="width = 90%">
+						<img id="myImage"   class="center_full"  src="data/life.jpg"style="width = 90%" alt="">
 					</div>
 			 
 			    
@@ -51,8 +58,7 @@
 <!-- partial -->
 
   <script  src="script.js"></script> 
-  <script>  </script>
-
+	</div>
 </body>
 </html>
  
